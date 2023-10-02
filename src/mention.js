@@ -1,4 +1,4 @@
-class Mention {
+export default class Mention {
 	/**
 	* @class Mention
 	* @classdesc Allows using a symbol to display options
@@ -277,5 +277,3 @@ class Mention {
 		})
 	}
 }
-
-if(typeof module != 'undefined') module.exports = Mention
